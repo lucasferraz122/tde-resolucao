@@ -13,18 +13,18 @@ class Pilha {
 
     public int remove() {
         if (topo == null) {
-            System.out.println("Pilha vazia!");
+            System.out.println("pilha vazia");
             return -1;
         }
         int valorRemovido = topo.valor;
         topo = topo.proximo;
-        System.out.println("Removido da pilha: " + valorRemovido);
+        System.out.println("removido da pilha: " + valorRemovido);
         return valorRemovido;
     }
 
     public void mostrar() {
         No atual = topo;
-        System.out.print("Pilha: ");
+        System.out.print("pilha: ");
         while (atual != null) {
             System.out.print(atual.valor + " ");
             atual = atual.proximo;
