@@ -1,4 +1,3 @@
-// classe para representar um nó da lista encadeada
 class No {
     int valor;
     No proximo;
