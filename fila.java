@@ -20,7 +20,7 @@ class Fila {
 
     public int remove() {
         if (inicio == null) {
-            System.out.println("Fila vazia!");
+            System.out.println("fila vazia!");
             return -1;
         }
         int valorRemovido = inicio.valor;
@@ -28,13 +28,13 @@ class Fila {
         if (inicio == null) {
             fim = null;
         }
-        System.out.println("Removido da fila: " + valorRemovido);
+        System.out.println("removido da fila: " + valorRemovido);
         return valorRemovido;
     }
 
     public void mostrar() {
         No atual = inicio;
-        System.out.print("Fila: ");
+        System.out.print("fila: ");
         while (atual != null) {
             System.out.print(atual.valor + " ");
             atual = atual.proximo;
