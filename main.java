@@ -9,19 +9,19 @@ public class Main {
 
         int opcao;
         do {
-            System.out.println("\n1 - Empilhar na Pilha");
-            System.out.println("2 - Remover da Pilha");
-            System.out.println("3 - Mostrar Pilha");
-            System.out.println("4 - Inserir na Fila");
-            System.out.println("5 - Remover da Fila");
-            System.out.println("6 - Mostrar Fila");
-            System.out.println("0 - Sair");
-            System.out.print("Escolha: ");
+            System.out.println("\n1 - empilhar na pilha");
+            System.out.println("2 - remover da pilha");
+            System.out.println("3 - mostrar pilha");
+            System.out.println("4 - inserir na fila");
+            System.out.println("5 - remover da fila");
+            System.out.println("6 - mostrar fila");
+            System.out.println("0 - sair");
+            System.out.print("escolha: ");
             opcao = sc.nextInt();
 
             switch(opcao) {
                 case 1:
-                    System.out.print("Digite um valor: ");
+                    System.out.print("digite um valor: ");
                     pilha.empilhar(sc.nextInt());
                     break;
                 case 2:
@@ -31,7 +31,7 @@ public class Main {
                     pilha.mostrar();
                     break;
                 case 4:
-                    System.out.print("Digite um valor: ");
+                    System.out.print("digite um valor: ");
                     fila.insere(sc.nextInt());
                     break;
                 case 5:
