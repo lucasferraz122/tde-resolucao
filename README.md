@@ -10,10 +10,10 @@ Este trabalho implementa as estruturas de **Pilha (LIFO)** e **Fila (FIFO)** uti
 - Fila → operações `insere`, `remove`, `mostrar`
 
 ### Pilha
-Segue a regra **lifo (last in, first out)**, ou seja, o **último elemento inserido** é o **primeiro a ser removido**.
+Segue a regra **lifo (last in, first out)**, ou seja, o **último elemento inserido** é o **primeiro a sair**.
 
 ### Fila
-Segue a regra **fifo (first in, first out)**, ou seja, o **primeiro elemento inserido** é o **primeiro a ser removido**.
+Segue a regra **fifo (first in, first out)**, ou seja, o **primeiro elemento inserido** é o **primeiro a sair**.
 
 ## Observações
 - Estruturas implementadas de forma manual, sem uso de classes prontas do Java.
